@@ -25,5 +25,5 @@ def messi():
         elif((user_ch == "1") and (cpu_ch == "3")) or ((user_ch == "3") and (cpu_ch == "2")) or ((user_ch == "2") and (cpu_ch == "1")):
             result("you win")
         else:
-            result("you lose")
+            result("you lose!")
 messi()
