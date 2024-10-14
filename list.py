@@ -99,3 +99,25 @@ list_names = ["Joseph", "Alan", "Pablo", "Roger", "Moroni", "Levi", "Nico", "Abi
 list_names.append("Benja")
 print(list_names)
 
+list_of_squares = []
+for int in range (1, 10):
+    square = int **2
+    list_of_squares.append(square)
+
+print(list_of_squares)
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+#[expression for int in list if condition]
+squared2 = [item**2 for item in range(1, 10)]
+print(squared2)
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+for numbers in numbers:
+    print(numbers**3)
+
+cubic = [num**3 for num in numbers]
+print(cubic)
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+doubled_numbers = [num*2 for num in numbers if num%2 == 0]
+print (doubled_numbers)
