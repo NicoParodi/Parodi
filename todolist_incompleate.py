@@ -9,14 +9,14 @@ def display_todo_list():
     print("Your to do list: ")
     print(todo_list)
 # Function to add a new task
-def add_task(task):
+def add_task():
     #TODO the user wants to add a task. 
     new_todo = input("enter a new thing to do: ")
     todo_list.append(new_todo)
 
     display_todo_list()
 # Function to remove a task by its name
-def remove_task(task):
+def remove_task():
     #TODO
     remove_todo = input("Enter to do thing you want to remove: ")
 
