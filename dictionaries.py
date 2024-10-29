@@ -14,7 +14,7 @@ def load_contacts(filename):
 
 def display_contact_info(contact_info):
     if contact_info:
-        print("\nContact Information:")
+        print("\nContact Information: ")
         print(f"First Name: {contact_info[0]}")
         print(f"Phone Number: {contact_info[1]}")
         print(f"Email: {contact_info[2]}")
